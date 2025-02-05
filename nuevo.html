@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/Iconos/LogoGris.png">
+  <title>Nuevo</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div id="header-placeholder"></div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- news section -->
+
+  <section class="news_section layout_padding">
+    <div class="container">
+      <div class="d-flex flex-column align-items-end">
+        <div class="custom_heading-container">
+          <hr>
+          <h2>
+            Lo Nuevo
+          </h2>
+
+        </div>
+        <p>
+          ¡Descubre lo más reciente! Explora nuestras últimas creaciones, productos y actualizaciones pensadas para llevar tu experiencia digital al siguiente nivel. Mantente al día con las novedades que tenemos para ti.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <!-- Imagen del Articulo #1 en la pestaña Nuevo-->
+              <img src="images/Imagenes/Pixel_App/TankPang.png" alt="" style="width: 371px; height: 312px;">
+            </div>
+            <div class="action-box">
+              <br>
+            </div>
+            <div class="detail-box">
+              <h4>
+                Tank Pang
+              </h4>
+              <p style="text-align: justify;">
+                Tank Pank es un juego en el que manejando un tanque debes explotar la mayor cantidad de bombas posibles. <br>
+                Prodras romper el record?
+              </p>
+              <div style="text-align: center;">
+                <a href="">Saber más</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Imagenes/Pixel_App/ExtremeMaze.png" alt="" style="width: 371px; height: 312px;">
+            </div>
+            <div class="action-box">
+              <br>
+            </div>
+            <div class="detail-box">
+              <h4>
+                Extreme Maze
+              </h4>
+              <p style="text-align: justify;">
+                Extreme Maze es un juego en el que debes guiar a un explorador a través de laberintos llenos de obstáculos. <br>
+                Podras conducir un vehículo para ayudarte a resolver algunos obstaculos.
+                Seras capas de llegar al final?
+              </p>
+              <div style="text-align: center;">
+                <a href="">Saber más</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Imagenes/Pixel_App/BallJump.png" alt="" style="width: 371px; height: 312px;">
+            </div>
+            <div class="action-box">
+              <br>
+            </div>
+            <div class="detail-box">
+              <h4>
+                Ball Jump
+              </h4>
+              <p style="text-align: justify;">
+                Ball Jump Es un juego en el que debes guiar a una pelota a través de plataformas y obstáculos para superar los niveles. <br>
+                Podras llegar al final?
+              </p>
+              <div style="text-align: center;">
+                <a href="">Saber más</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end news section -->
+
+
+  <!-- info section -->
+  <div id="footer-placeholder"></div>
+  <!-- end info_section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    fetch('pages/header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading header:', error));
+  </script>
+  <script>
+    fetch('pages/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading footer:', error));
+  </script>
+
+</body>
+</body>
+
+</html>
