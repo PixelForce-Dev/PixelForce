@@ -142,7 +142,7 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script>
-    fetch('pages/header.html')
+    fetch('header.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('header-placeholder').innerHTML = data;
@@ -150,7 +150,7 @@
       .catch(error => console.error('Error loading header:', error));
   </script>
   <script>
-    fetch('pages/footer.html')
+    fetch('footer.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('footer-placeholder').innerHTML = data;
